@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11905" started-at="2019-08-11T16:57:55Z" finished-at="2019-08-11T16:58:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11905" started-at="2019-08-11T16:57:55Z" finished-at="2019-08-11T16:58:06Z">
+      <class name="POC_testrunner.poc_testrunnerclass">
+        <test-method status="PASS" signature="f()[pri:0, instance:POC_testrunner.poc_testrunnerclass@49993335]" name="f" is-config="true" duration-ms="9506" started-at="2019-08-11T16:57:55Z" finished-at="2019-08-11T16:58:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="verifytable1()[pri:1, instance:POC_testrunner.poc_testrunnerclass@49993335]" name="verifytable1" duration-ms="133" started-at="2019-08-11T16:58:04Z" finished-at="2019-08-11T16:58:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytable1 -->
+        <test-method status="PASS" signature="verifytable2()[pri:2, instance:POC_testrunner.poc_testrunnerclass@49993335]" name="verifytable2" duration-ms="96" started-at="2019-08-11T16:58:04Z" finished-at="2019-08-11T16:58:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytable2 -->
+        <test-method status="PASS" signature="changepage()[pri:3, instance:POC_testrunner.poc_testrunnerclass@49993335]" name="changepage" duration-ms="804" started-at="2019-08-11T16:58:04Z" finished-at="2019-08-11T16:58:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changepage -->
+        <test-method status="PASS" signature="verify_prod_name(java.lang.String)[pri:4, instance:POC_testrunner.poc_testrunnerclass@49993335]" name="verify_prod_name" duration-ms="40" started-at="2019-08-11T16:58:05Z" data-provider="productname" finished-at="2019-08-11T16:58:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Web Database Development]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_prod_name -->
+        <test-method status="PASS" signature="verify_prod_name(java.lang.String)[pri:4, instance:POC_testrunner.poc_testrunnerclass@49993335]" name="verify_prod_name" duration-ms="40" started-at="2019-08-11T16:58:05Z" data-provider="productname" finished-at="2019-08-11T16:58:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MySQL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_prod_name -->
+        <test-method status="PASS" signature="verify_prod_name(java.lang.String)[pri:4, instance:POC_testrunner.poc_testrunnerclass@49993335]" name="verify_prod_name" duration-ms="40" started-at="2019-08-11T16:58:05Z" data-provider="productname" finished-at="2019-08-11T16:58:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MySQL and mSQL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_prod_name -->
+        <test-method status="PASS" signature="verify_prod_name(java.lang.String)[pri:4, instance:POC_testrunner.poc_testrunnerclass@49993335]" name="verify_prod_name" duration-ms="40" started-at="2019-08-11T16:58:05Z" data-provider="productname" finished-at="2019-08-11T16:58:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Beginning ASP Databases]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_prod_name -->
+        <test-method status="PASS" signature="verify_prod_name(java.lang.String)[pri:4, instance:POC_testrunner.poc_testrunnerclass@49993335]" name="verify_prod_name" duration-ms="52" started-at="2019-08-11T16:58:05Z" data-provider="productname" finished-at="2019-08-11T16:58:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Oracle8i Web Development]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_prod_name -->
+        <test-method status="PASS" signature="verify_prod_price(java.lang.String)[pri:5, instance:POC_testrunner.poc_testrunnerclass@49993335]" name="verify_prod_price" duration-ms="284" started-at="2019-08-11T16:58:05Z" data-provider="productprice" finished-at="2019-08-11T16:58:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[39.99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_prod_price -->
+        <test-method status="PASS" signature="verify_prod_price(java.lang.String)[pri:5, instance:POC_testrunner.poc_testrunnerclass@49993335]" name="verify_prod_price" duration-ms="172" started-at="2019-08-11T16:58:06Z" data-provider="productprice" finished-at="2019-08-11T16:58:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[39.99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_prod_price -->
+        <test-method status="PASS" signature="verify_prod_price(java.lang.String)[pri:5, instance:POC_testrunner.poc_testrunnerclass@49993335]" name="verify_prod_price" duration-ms="156" started-at="2019-08-11T16:58:06Z" data-provider="productprice" finished-at="2019-08-11T16:58:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[27.96]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_prod_price -->
+        <test-method status="PASS" signature="verify_prod_price(java.lang.String)[pri:5, instance:POC_testrunner.poc_testrunnerclass@49993335]" name="verify_prod_price" duration-ms="173" started-at="2019-08-11T16:58:06Z" data-provider="productprice" finished-at="2019-08-11T16:58:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[39.99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_prod_price -->
+        <test-method status="PASS" signature="verify_prod_price(java.lang.String)[pri:5, instance:POC_testrunner.poc_testrunnerclass@49993335]" name="verify_prod_price" duration-ms="161" started-at="2019-08-11T16:58:06Z" data-provider="productprice" finished-at="2019-08-11T16:58:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[41.99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_prod_price -->
+        <test-method status="PASS" signature="close()[pri:0, instance:POC_testrunner.poc_testrunnerclass@49993335]" name="close" is-config="true" duration-ms="160" started-at="2019-08-11T16:58:06Z" finished-at="2019-08-11T16:58:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- POC_testrunner.poc_testrunnerclass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
